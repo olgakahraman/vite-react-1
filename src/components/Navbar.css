@@ -1,21 +1,17 @@
 .navbar,
-.navbar-items
-{
-   display:flex;
-   justify-content: space-between;
-  color: #60DCFA;
-  gap:0.5em;
+.navbar-items {
+  display: flex;
+  justify-content: space-between;
+  color: #60dcfa;
+  gap: 0.5em;
   align-items: center;
   font-size: 1.2rem;
-   
 }
-.navbar{
-    background-color: #21222A;
-   color:#DFE9F5;
-  padding:1.5em;
-  
-  
+.navbar {
+  background-color: #21222a;
+  color: #deebf8;
+  padding: 1.5em;
 }
-.logo-react{
-    width: 3em;
+.logo-react {
+  width: 3em;
 }

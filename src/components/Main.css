@@ -1,14 +1,19 @@
-.main-content{
-    padding:2.5em;
-    background-color: #272D34;
-    color:#DFE9F5;
+.main-content {
+  padding: 2.5em;
 
+  color: #fff;
+  background-image: url(../assets/reactjs-icon2.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
 }
-.list-items{
-    color: #60DCFA;
-    margin: 2em;
-    
+.list-items {
+  color: fff;
+  margin: 2em;
+  line-height: 2;
+  max-width: 400px;
 }
-.list-text{
-     color:#DFE9F5;
+
+.list-items > li::marker {
+  font-size: 1.4rem;
+  color: #60dcfa;
 }
